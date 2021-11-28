@@ -1,0 +1,44 @@
+{
+    "name": "SwipeControl",
+    "maps": [
+        {
+            "name": "Move",
+            "id": "f04253d8-89ea-42d4-b95e-a190d6f84f04",
+            "actions": [
+                {
+                    "name": "MoveZ",
+                    "type": "Value",
+                    "id": "cdb35786-d616-4932-afd5-960c6988dec6",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "6e12fd9b-c6e1-441a-8e8a-225b8ae5032c",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveZ",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0a8fdd98-2c69-4e5c-b1a8-385e3e1a934e",
+                    "path": "<Touchscreen>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveZ",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
